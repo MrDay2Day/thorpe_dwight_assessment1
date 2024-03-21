@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(39, 39, 39, 0.87);
+  background-color: #ffffff;
+
+  min-height: 100vh;
+  height: 100px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0px;
+}
+
+main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#carousel-div {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1300px;
+  /* overflow: auto; */
+}
+
+button {
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  text-wrap: wrap;
+}
+button:hover {
+  border-color: #2f39f8;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 200px;
+}
+.team-card {
+  min-width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #cecece solid 1px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 10px;
+  background-color: #545454;
+  color: rgb(216, 216, 216);
+  margin-top: 50px;
+}
